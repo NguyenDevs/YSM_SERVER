@@ -1,0 +1,57 @@
+[19:14:25] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-bd2bb632-b496)...
+[19:14:25] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[19:14:26] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[19:14:26] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[19:14:26] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin packetevents 2.7.0 by retrooper
+[19:14:26] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin freesia 2.3.2-universal by Earthme, HappyRespawnanchor, xiaozhangup
+[19:14:26] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 3 plugins
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [packetevents]: Injecting packetevents...
+[19:14:26] [PacketEvents - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[19:14:26] [packetevents-update-check-thread/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Checking for updates, please wait...
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [packetevents]: Plugin started
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ----------------------------------------------------------------
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:     ______                         _       
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:    / ____/_____ ___   ___   _____ (_)____ _
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   / /_   / ___// _ \ / _ \ / ___// // __ `/
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  / __/  / /   /  __//  __/(__  )/ // /_/ / 
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: /_/    /_/    \___/ \___//____//_/ \__,_/  
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+     Powered by YesSteveModel and all contributors, Version: 2.5.0+2.4
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ----------------------------------------------------------------
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [freesia]: Loading config file and i18n
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [freesia]: Loading config file.
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [freesia]: Registering events and packet listeners.
+[19:14:26] [PacketEvents - Task Executor #0/WARN] [io.netty.bootstrap.ServerBootstrap]: Unknown channel option 'TCP_NODELAY' for channel '[id: 0x886466b2]'
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [freesia]: Initiating client kicker.
+[19:14:26] [PacketEvents - Task Executor #0/INFO] [freesia]: Registering commands
+[19:14:26] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[19:14:26] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.39s)!
+[19:14:27] [packetevents-update-check-thread/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: You are running the latest release of PacketEvents. Your build: (§a2.7.0§f)
+[19:17:00] [nioEventLoopGroup-3-1/INFO] [freesia]: Worker connected [id: 0xc9c52727, L:/127.0.0.1:19200 - R:/127.0.0.1:64938]
+[19:17:00] [nioEventLoopGroup-3-1/INFO] [freesia]: Worker freesia_node_1745237819862 (UUID: 77a30ffe-ad58-3c9f-bd61-4e70aef903f2) connected
+[19:27:29] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] NguyenDevs (/127.0.0.1:65146) has connected
+[19:27:29] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NguyenDevs -> lobby has connected
+[19:27:31] [Freesia - Task Executor #0/INFO] [freesia]: Initiating mapper session for player NguyenDevs
+[19:27:32] [Netty NIO Worker #6/INFO] [freesia]: Entity id update for player NguyenDevs to 17
+[19:27:38] [tcpClientSession-4-1/INFO] [freesia]: Replying ysm client with server version 2.4.0.Can switch model? : true
+[19:27:38] [Freesia - Task Executor #1/INFO] [freesia]: Player NguyenDevs is connected to the backend with ysm version 2.4.0
+[19:28:25] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NguyenDevs -> main has connected
+[19:28:28] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NguyenDevs -> main has disconnected
+[19:28:28] [Netty NIO Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] NguyenDevs (/127.0.0.1:65146): disconnected while connecting to main: Outdated client! Please use 1.21.4
+[19:29:52] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NguyenDevs -> main has connected
+[19:29:53] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NguyenDevs -> lobby has disconnected
+[19:29:53] [Freesia - Task Executor #0/INFO] [freesia]: Player NguyenDevs has changed backend server.Reconnecting mapper session
+[19:29:53] [tcpClientSession-5-1/INFO] [freesia]: Mapper session has disconnected for reason(non-deserialized): TextComponentImpl{content="RECONNECT", style=StyleImpl{obfuscated=not_set, bold=not_set, strikethrough=not_set, underlined=not_set, italic=not_set, color=null, shadowColor=null, clickEvent=null, hoverEvent=null, insertion=null, font=null}, children=[]}
+[19:29:53] [Netty NIO Worker #6/INFO] [freesia]: Entity id update for player NguyenDevs to 72
+[19:29:54] [tcpClientSession-4-2/INFO] [freesia]: Replying ysm client with server version 2.4.0.Can switch model? : true
+[19:29:54] [Freesia - Task Executor #0/INFO] [freesia]: Player NguyenDevs is connected to the backend with ysm version 2.4.0
+[19:30:55] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NguyenDevs -> lobby has connected
+[19:30:55] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NguyenDevs -> main has disconnected
+[19:30:55] [Freesia - Task Executor #0/INFO] [freesia]: Player NguyenDevs has changed backend server.Reconnecting mapper session
+[19:30:55] [tcpClientSession-5-2/INFO] [freesia]: Mapper session has disconnected for reason(non-deserialized): TextComponentImpl{content="RECONNECT", style=StyleImpl{obfuscated=not_set, bold=not_set, strikethrough=not_set, underlined=not_set, italic=not_set, color=null, shadowColor=null, clickEvent=null, hoverEvent=null, insertion=null, font=null}, children=[]}
+[19:30:55] [Netty NIO Worker #6/INFO] [freesia]: Entity id update for player NguyenDevs to 448
+[19:30:56] [tcpClientSession-4-3/INFO] [freesia]: Replying ysm client with server version 2.4.0.Can switch model? : true
+[19:30:57] [Freesia - Task Executor #0/INFO] [freesia]: Player NguyenDevs is connected to the backend with ysm version 2.4.0
+[19:31:02] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] NguyenDevs (/127.0.0.1:65146) has disconnected
+[19:31:02] [tcpClientSession-5-3/INFO] [freesia]: Mapper session has disconnected for reason(non-deserialized): TextComponentImpl{content="PLAYER DISCONNECTED", style=StyleImpl{obfuscated=not_set, bold=not_set, strikethrough=not_set, underlined=not_set, italic=not_set, color=null, shadowColor=null, clickEvent=null, hoverEvent=null, insertion=null, font=null}, children=[]}
+[19:31:02] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NguyenDevs -> lobby has disconnected

@@ -1,0 +1,10 @@
+[functions]
+	kick_if_ysm_not_installed = false
+	ysm_detection_timeout_for_kicking = 3000
+[messages]
+	language = "en_US"
+[worker]
+	worker_master_ip = "localhost"
+	worker_master_port = 19200
+	worker_msession_port = 19199
+	worker_msession_ip = "localhost"

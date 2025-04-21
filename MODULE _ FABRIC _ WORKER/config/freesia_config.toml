@@ -1,0 +1,5 @@
+[worker]
+	worker_master_ip = "speccy.piriform.com"
+	worker_master_port = 19200
+	controller_reconnect_interval = 1
+	player_data_cache_invalidate_interval_seconds = 30

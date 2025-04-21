@@ -1,0 +1,71 @@
+[19:21:19] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[19:21:19] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-226-ver/1.21.4@a838a88 (2025-04-17T19:20:57Z) for Minecraft 1.21.4
+[19:21:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:21:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[19:21:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Freesia-Backend (${version}), ViaBackwards (5.3.2), ViaVersion (5.3.2)
+[19:21:25] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:21:28] [ServerMain/INFO]: Loaded 1370 recipes
+[19:21:28] [ServerMain/INFO]: Loaded 1481 advancements
+[19:21:28] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[19:21:28] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 292.9ms
+[19:21:28] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[19:21:28] [Server thread/INFO]: Loading properties
+[19:21:28] [Server thread/INFO]: This server is running Paper version 1.21.4-226-ver/1.21.4@a838a88 (2025-04-17T19:20:57Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[19:21:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:21:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:21:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:21:29] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[19:21:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[19:21:30] [Server thread/INFO]: Default game type: SURVIVAL
+[19:21:30] [Server thread/INFO]: Generating keypair
+[19:21:30] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:30066
+[19:21:30] [Server thread/INFO]: Using default channel type
+[19:21:30] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:21:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:21:31] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[19:21:31] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[19:21:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:21:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:21:32] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:21:32] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[19:21:33] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[19:21:33] [Server thread/INFO]: [Freesia-Backend] Loading server plugin Freesia-Backend v${version}
+[19:21:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:21:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:21:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:21:33] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[19:21:33] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[19:21:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:21:33] [Server thread/INFO]: Preparing level "world"
+[19:21:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:21:33] [Server thread/INFO]: Preparing spawn area: 0%
+[19:21:34] [Server thread/INFO]: Preparing spawn area: 10%
+[19:21:34] [Server thread/INFO]: Time elapsed: 947 ms
+[19:21:34] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[19:21:34] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[19:21:34] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[19:21:34] [Server thread/INFO]: [Freesia-Backend] Enabling Freesia-Backend v${version}
+[19:21:34] [Server thread/INFO]: [spark] Starting background profiler...
+[19:21:34] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[19:21:34] [Server thread/INFO]: Done preparing level "world" (1.714s)
+[19:21:34] [Server thread/INFO]: Running delayed init tasks
+[19:21:34] [Server thread/INFO]: Done (16.986s)! For help, type "help"
+[19:21:34] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[19:21:37] [Server thread/INFO]: ℹ Server Plugins (3):
+[19:21:37] [Server thread/INFO]: Bukkit Plugins:
+[19:21:37] [Server thread/INFO]:  - Freesia-Backend, ViaBackwards, ViaVersion
+[19:27:29] [User Authenticator #0/INFO]: UUID of player NguyenDevs is 22f5c548-dce8-4e1b-9e40-d8abdbf26534
+[19:27:32] [Server thread/INFO]: NguyenDevs joined the game
+[19:27:32] [Server thread/INFO]: NguyenDevs[/127.0.0.1:65149] logged in with entity id 17 at ([world]2.5, 67.0, 2.5)
+[19:28:03] [Server thread/INFO]: NguyenDevs issued server command: /version
+[19:29:17] [Async Chat Thread - #1/INFO]: <NguyenDevs> Hi
+[19:29:22] [Async Chat Thread - #1/INFO]: <NguyenDevs> This is Lobby
+[19:29:46] [Server thread/INFO]: Made NguyenDevs a server operator
+[19:29:53] [Server thread/INFO]: NguyenDevs lost connection: Disconnected
+[19:29:53] [Server thread/INFO]: NguyenDevs left the game
+[19:30:55] [User Authenticator #1/INFO]: UUID of player NguyenDevs is 22f5c548-dce8-4e1b-9e40-d8abdbf26534
+[19:30:55] [Server thread/INFO]: NguyenDevs joined the game
+[19:30:55] [Server thread/INFO]: NguyenDevs[/127.0.0.1:65196] logged in with entity id 448 at ([world]1.251947662926845, 67.0, 3.2113475574696118)
+[19:31:02] [Server thread/INFO]: NguyenDevs lost connection: Disconnected
+[19:31:02] [Server thread/INFO]: NguyenDevs left the game
